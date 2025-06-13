@@ -1,0 +1,10 @@
+09:58:24 **** Incremental Build of configuration Debug for project DriverAntiSleepingAlarmSystem ****
+make -j12 all 
+arm-none-eabi-size  DriverAntiSleepingAlarmSystem.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5544	     12	   1644	   7200	   1c20	DriverAntiSleepingAlarmSystem.elf
+Finished building: default.size.stdout
+ 
+
+09:58:25 Build Finished. 0 errors, 0 warnings. (took 196ms)
+
