@@ -4,14 +4,14 @@
 This is a **real-time driver drowsiness detection system** using a laptop camera (OpenCV + MediaPipe).  
 When sleepiness is detected (eye closure or yawning), a signal is sent via **UART** to the **STM32F103C8T6** microcontroller to trigger a blinking LED alert.
 
-The system integrates a Python-based vision module with STM32 using the **PL2303HX USB-UART** module.
+The system integrates a Python-based vision module with STM32 using the **CP2102 USB-UART** module.
 
 ---
 
 ## 🧰 Hardware Requirements
 - STM32F103C8T6 “Blue Pill”
 - ST-Link V2
-- USB-UART (PL2303HX)
+- USB-UART (CP2102)
 - LED
 - Resistors
 - Jumper wires (Male-to-Female or Male-to-Male)
